@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; background:blanchedalmond}
+h1, h2 { margin: 0 0 8px; }
+.card { background: white; padding: 16px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+label { display:block; margin: 8px 0 4px; font-weight: 600; }
+input[type="file"], input[type="text"], input:not([type]) {
+  display:block; width:100%; padding:8px; border:1px solid #ddd; border-radius:8px;
+}
+button {
+  margin-top: 10px; padding: 10px 14px; border: 0; border-radius: 10px; background: #3b82f6; color: white; font-weight: 600; cursor: pointer;
+}
+button:hover { opacity: 0.95; }
